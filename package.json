@@ -1,0 +1,53 @@
+{
+  "name": "react-node",
+  "version": "1.0.0",
+  "description": "React node boilerplate app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start-react": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldLobo/react-node.git"
+  },
+  "author": "Ronald Lobo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonaldLobo/react-node/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cookie-parser": "1.4.5",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "lodash": "4.17.20",
+    "require-dir-all": "0.4.15",
+    "server-destroy": "1.0.1",
+    "@testing-library/jest-dom": "4.2.4",
+    "@testing-library/react": "9.3.2",
+    "@testing-library/user-event": "7.1.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
